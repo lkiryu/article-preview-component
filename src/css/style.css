@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 20px;
+}
+
+.card .drawers-picture{
+    width: 400px;
+    border-radius: 20px 0 0 20px;
+}
+
+.info{
+    width: 500px;
+    padding: 30px 40px;
+}
+
+.info .title{
+    color: hsl(217, 19%, 35%);
+    margin-bottom: 20px;
+}
+
+.info .description{
+    color: hsl(214, 17%, 51%);
+    margin-bottom: 20px;
+}
+
+.author-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.author ul li{
+    color: hsl(212, 23%, 69%);
+}
+
+.author ul li:first-child{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+
+.author-picture{
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.share-button{
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(214, 17%, 51%);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.share{
+    display: none;
+}
