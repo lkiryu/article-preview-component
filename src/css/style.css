@@ -74,6 +74,7 @@ body{
     padding: 10px;
     border-radius: 50px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .share-button.active{
