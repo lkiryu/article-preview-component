@@ -76,6 +76,11 @@ body{
     cursor: pointer;
 }
 
+.share-button.active{
+    background-color: hsl(214, 17%, 51%);
+    color: hsl(0, 100%, 100%);
+}
+
 .share{
     display: flex;
     justify-content: space-between;
@@ -98,6 +103,11 @@ body{
 .share i{
     color: hsl(0, 100%, 100%);
     font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.share i:hover{
+    color: hsl(212, 23%, 69%);
 }
 
 .none{
